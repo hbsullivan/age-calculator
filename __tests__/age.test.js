@@ -42,4 +42,9 @@ describe('Age', () => {
     const age = new Age(25, 81);
     expect(age.marsEx()).toEqual(29);
   });
+
+  test('should return how many years are left on Jupiter', () => {
+    const age = new Age(25, 81);
+    expect(age.jupiterEx()).toEqual(4);
+  });
 })
