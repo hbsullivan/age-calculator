@@ -9,6 +9,11 @@ describe('Age', () => {
 
   test('should return the years in Mercury time', () => {
     const age = new Age(25);
-    expect(age.mercury()).toEqual(104)
+    expect(age.mercury()).toEqual(104);
+  })
+
+  test('should return the years in Venus time', () => {
+    const age = new Age(25);
+    expect(age.venus()).toEqual(40);
   })
 })
