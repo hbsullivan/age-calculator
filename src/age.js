@@ -1,6 +1,7 @@
 export default class Age {
-  constructor(years){
+  constructor(years, expectancy){
     this.years = years;
+    this.expectancy = expectancy;
   }
 
   mercury() {
