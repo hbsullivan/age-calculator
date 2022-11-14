@@ -21,4 +21,9 @@ describe('Age', () => {
     const age = new Age(25);
     expect(age.mars()).toEqual(13);
   })
+
+  test('should return the years in Jupiter time', () => {
+    const age = new Age(25);
+    expect(age.jupiter().toEqual(2));
+  })
 })
