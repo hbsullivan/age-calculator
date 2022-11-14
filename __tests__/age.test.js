@@ -63,4 +63,9 @@ describe('Age', () => {
     expect(age.marsEx()).toEqual(.5);
   });
 
+  test('should return how many years lived past the life expectancy on jupiter', () => {
+    const age = new Age(82, 81);
+    expect(age.jupiterEx()).toEqual(.08);
+  });
+
 })
