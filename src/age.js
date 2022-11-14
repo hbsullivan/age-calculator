@@ -14,4 +14,8 @@ export default class Age {
   mars() {
     return Math.trunc(this.years/(1.88));
   }
+
+  jupiter() {
+    return Math.trunc(this.years/(11.86));
+  }
 }
