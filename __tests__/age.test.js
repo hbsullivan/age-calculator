@@ -27,4 +27,9 @@ describe('Age', () => {
     const age = new Age(25);
     expect(age.jupiter()).toEqual(2);
   })
+
+  test('should return how many years are left on Mercury', () => {
+    const age = new Age(25, 81);
+    expect(age.mercuryEx()).toEqual(233)
+  })
 })
