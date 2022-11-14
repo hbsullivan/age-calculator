@@ -30,7 +30,7 @@ function handleSubmission(event) {
     document.querySelector('#mars').innerText = `You are ${age.mars()} years old on Mars and you have ${age.marsEx()} years left to explore.`;
 
     document.querySelector('#jupiter').innerText = `You are ${age.jupiter()} years old on Jupiter and you have ${age.jupiterEx()} years left to explore.`;
-  }else if((years === 0) || (expectancy === 0)){
+  }else{
     document.querySelector('#mercury').innerText = null;
     document.querySelector('#venus').innerText = null;
     document.querySelector('#mars').innerText = null;
