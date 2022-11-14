@@ -49,7 +49,7 @@ describe('Age', () => {
   });
 
   test('should return how many years lived past the life expectancy', () => {
-    const age = new Age (82, 81);
-    expect(age.mercuryEx().toEqual(4));
+    const age = new Age(82, 81);
+    expect(age.mercuryEx()).toEqual(4);
   });
 })

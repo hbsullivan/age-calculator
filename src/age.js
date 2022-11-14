@@ -9,7 +9,11 @@ export default class Age {
   }
 
   mercuryEx() {
-    return Math.trunc(((this.expectancy - this.years)/(.24)));
+    if(this.expectancy-this.years < 0){
+      return Math.trunc(Math.abs(this.expectancy-this.years)/(.24));
+    }else{
+      return Math.trunc(((this.expectancy - this.years)/(.24)));
+    }
   }
 
   venus() {
