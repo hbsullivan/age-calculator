@@ -3,4 +3,7 @@ export default class Age {
     this.years = years;
   }
 
+  mercury() {
+    return Math.trunc(this.years/(.24))
+  }
 }
