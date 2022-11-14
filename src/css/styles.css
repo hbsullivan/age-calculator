@@ -1,3 +1,19 @@
 .error{
   display: none;
 }
+
+body{ 
+  color: white;
+  font-family: monospace;
+  background-color: white;
+  background-image: url(https://cdn.mos.cms.futurecdn.net/BfemybeKVXCf9pgX9WCxsc-1200-80.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+
+}
+
+#error-id{
+  color: red;
+}
