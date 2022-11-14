@@ -31,4 +31,8 @@ export default class Age {
   jupiter() {
     return Math.trunc(this.years/(11.86));
   }
+
+  jupiterEx() {
+    return Math.trunc(((this.expectancy - this.years)/(11.86)));
+  }
 }
