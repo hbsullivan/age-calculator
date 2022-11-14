@@ -37,4 +37,9 @@ describe('Age', () => {
     const age = new Age(25, 81);
     expect(age.venusEx()).toEqual(90);
   });
+
+  test('should return how many years are left on Mars', () => {
+    const age = new Age(25, 81);
+    expect(age.marsEx()).toEqual(29);
+  });
 })
