@@ -33,7 +33,11 @@ export default class Age {
   }
 
   marsEx() {
-    return Math.trunc(((this.expectancy - this.years)/(1.88)));
+    if(this.expectancy-this.years < 0){
+      return Math.abs(((this.expectancy-this.years)/(1.88)).toFixed(1));
+    }else{
+      return Math.trunc(((this.expectancy - this.years)/(1.88)));
+    }
   }
 
   jupiter() {
