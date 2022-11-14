@@ -48,8 +48,14 @@ describe('Age', () => {
     expect(age.jupiterEx()).toEqual(4);
   });
 
-  test('should return how many years lived past the life expectancy', () => {
+  test('should return how many years lived past the life expectancy on mercury', () => {
     const age = new Age(82, 81);
     expect(age.mercuryEx()).toEqual(4);
   });
+
+  test('should return how many years lived past the life expectancy on venus', () => {
+    const age = new Age(82, 81);
+    expect(age.venusEx()).toEqual(1);
+  });
+
 })
