@@ -16,6 +16,10 @@ export default class Age {
     return Math.trunc(this.years/(.62));
   }
 
+  venusEx() {
+    return Math.trunc(((this.expectancy - this.years)/(.62)));
+  }
+
   mars() {
     return Math.trunc(this.years/(1.88));
   }
