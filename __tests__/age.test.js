@@ -19,6 +19,6 @@ describe('Age', () => {
 
   test('should return the years in Mars time', () => {
     const age = new Age(25);
-    expect(age.venus()).toEqual(13);
+    expect(age.mars()).toEqual(13);
   })
 })
