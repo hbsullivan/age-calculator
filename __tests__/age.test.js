@@ -47,4 +47,9 @@ describe('Age', () => {
     const age = new Age(25, 81);
     expect(age.jupiterEx()).toEqual(4);
   });
+
+  test('should return how many years lived past the life expectancy', () => {
+    const age = new Age (82, 81);
+    expect(age.mercuryEx().toEqual(4));
+  });
 })
