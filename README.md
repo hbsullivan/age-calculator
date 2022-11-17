@@ -29,6 +29,10 @@ _This application is able to calculate your age whether you are on Mercury, Venu
 % npm install
 % npm run start
 ```
+* _To test the business logic run the following command:_
+```
+% npm run test
+```
 * Can also reach the repository at https://github.com/hbsullivan/age-calculator.git
 
 
